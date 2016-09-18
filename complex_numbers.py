@@ -19,12 +19,12 @@ class ComplexNumber(object):
 		return self.complex_num
 
 	def __add__(self, other_complex_num):
-		i = self.i + other_complex_num.i
-		r = self.r + other_complex_num.r
-		return ComplexNumber(r, i)
+        i = self.i + other_complex_num.i
+        r = self.r + other_complex_num.r
+        return ComplexNumber(r, i)
 
 	def __sub__(self, other_complex_num):
-		i = self.i - other_complex_num.i
+        i = self.i - other_complex_num.i
 		r = self.r - other_complex_num.r
 		return ComplexNumber(r, i)
 
